@@ -1,0 +1,9 @@
+{
+    "name": "team_challenge",
+    "build":{
+        "dockerfile": "team_challenge",
+        "context": "."
+    }
+    // },   // use when adding runArgs below
+    // "runArgs": ["--env-file", ".devcontainer/devcontainer.env"]
+}
